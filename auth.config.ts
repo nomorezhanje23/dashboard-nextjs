@@ -1,3 +1,4 @@
+//log in page for the Administrator
 import type { NextAuthConfig } from 'next-auth';
  
 export const authConfig = {

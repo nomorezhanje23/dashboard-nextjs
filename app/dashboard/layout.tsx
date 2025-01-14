@@ -12,3 +12,5 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
+
+//This code is a layout of the invoice structure

@@ -1,3 +1,4 @@
+//required components, data fetching and utilities
 import { sql } from '@vercel/postgres';
 import {
   CustomerField,

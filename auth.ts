@@ -1,3 +1,4 @@
+//required components, data fetching and utilities
 import NextAuth from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
 import { authConfig } from './auth.config';
@@ -15,7 +16,7 @@ async function getUser(email: string): Promise<User | undefined> {
     throw new Error('Failed to fetch user.');
   }
 }
- 
+ //code to ensure the right user has rights to the app
 export const { auth, signIn, signOut } = NextAuth({
   ...authConfig,
   providers: [

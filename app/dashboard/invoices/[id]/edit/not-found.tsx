@@ -16,3 +16,5 @@ export default function NotFound() {
     </main>
   );
 }
+
+// If an invoice is not found this code will bring back the 404 Not found page and ask the visitor to retry

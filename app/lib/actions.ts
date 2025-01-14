@@ -1,5 +1,5 @@
 'use server';
-
+//required components, data fetching and utilities
 import { z } from 'zod';
 import { sql } from '@vercel/postgres';
 import { revalidatePath } from 'next/cache';
